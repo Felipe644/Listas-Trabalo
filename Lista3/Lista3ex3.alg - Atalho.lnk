@@ -1,0 +1,18 @@
+algoritmo "lista3ex3"
+// Função :
+// Autor :
+// Data : 22/04/2018
+// Seção de Declarações 
+var
+ soma,j:real
+ x,m:inteiro
+inicio
+soma<-soma
+x<-1
+para m de 1 ate 99 passo 2 faca
+x<-x+1
+j<-m/x
+soma<-soma+j
+fimpara
+escreval("A soma é igual a: ",soma)
+fimalgoritmo

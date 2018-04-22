@@ -1,0 +1,21 @@
+algoritmo "lista3ex8"
+// Função :
+// Autor :
+// Data : 22/04/2018
+// Seção de Declarações
+var
+num,x:inteiro
+inicio
+escreval("Digite um número:")
+leia(num)
+para x de 0 ate num  faca
+   se (x mod 2=0)entao
+      escreval("par:",x)
+   senao
+      se (x mod 2=1) entao
+         escreval("IMPAR:",x)
+      fimse
+   fimse
+
+fimpara
+fimalgoritmo

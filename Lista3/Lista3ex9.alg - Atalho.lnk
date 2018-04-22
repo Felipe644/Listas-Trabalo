@@ -1,0 +1,23 @@
+algoritmo "Lista3ex9"
+// Função :
+// Autor :
+// Data : 22/04/2018
+// Seção de Declarações
+var
+num,b,m:inteiro
+inicio
+escreval("Digite um número:")
+leia(num)
+se num>0 entao
+   para b de 1 ate num faca
+      se(num mod b=0) entao
+         m<-m+1
+      fimse
+   fimpara
+   se m=2 entao
+      escreval("O número ",num," é primo")
+   senao
+      escreval("O número ",num," não é primo")
+   fimse
+fimse
+fimalgoritmo

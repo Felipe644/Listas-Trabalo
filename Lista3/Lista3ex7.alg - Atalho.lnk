@@ -1,0 +1,31 @@
+algoritmo "Lista3ex7"
+// Função :
+// Autor :
+// Data : 22/04/2018
+// Seção de Declarações
+var
+quant,m:inteiro
+media,maior,menor:real
+inicio
+m<-1
+
+escreval("Digite a quantidadde de alunos:")
+leia(quant)
+maior<-media
+menor<-media
+m<-1
+enquanto (m<=quant) faca
+   escreva("Média final: ")
+   leia(media)
+   se media<menor entao
+      menor<-media
+   senao
+      se media>maior entao
+         maior<-media
+      fimse
+   fimse
+m<-m+1
+fimenquanto
+escreval("MAIOR MÉDIA: ",maior)
+
+fimalgoritmo
